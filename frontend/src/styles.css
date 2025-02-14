@@ -1,0 +1,31 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global font and background */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fafb;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Anchor tags */
+  a {
+    text-decoration: none;
+    color: #1d4ed8;
+  }
+  
+  a:hover {
+    color: #2563eb;
+  }
+  
+  /* Buttons */
+  button {
+    font-family: inherit;
+    cursor: pointer;
+  }
+  

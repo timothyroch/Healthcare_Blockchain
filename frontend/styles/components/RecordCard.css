@@ -1,0 +1,83 @@
+/* General Card Styling */
+.record-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px 0;
+    max-width: 400px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .record-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .record-header h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .record-timestamp {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .record-body {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .record-body p {
+    margin: 5px 0;
+  }
+  
+  .record-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .record-actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-button {
+    background-color: #1d4ed8;
+    color: white;
+  }
+  
+  .view-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .share-button {
+    background-color: #10b981;
+    color: white;
+  }
+  
+  .share-button:hover {
+    background-color: #34d399;
+  }
+  
+  .revoke-button {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  .revoke-button:hover {
+    background-color: #f87171;
+  }
+  

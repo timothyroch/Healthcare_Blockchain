@@ -1,0 +1,13 @@
+{
+    "database": {
+      "uri": "mongodb+srv://your_username:your_password@your_cluster.mongodb.net/healthcare?retryWrites=true&w=majority",
+      "name": "healthcare",
+      "options": {
+        "useNewUrlParser": true,
+        "useUnifiedTopology": true,
+        "useCreateIndex": true,
+        "useFindAndModify": false
+      }
+    }
+  }
+  

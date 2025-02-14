@@ -1,0 +1,60 @@
+.login-page {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-page h2 {
+    margin-bottom: 20px;
+    color: #1d4ed8;
+  }
+  
+  .login-page p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #4b5563;
+  }
+  
+  .role-selection {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .role-selection label {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .role-selection input {
+    margin-right: 8px;
+  }
+  
+  .btn-primary {
+    background-color: #10b981;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #34d399;
+  }
+  
+  .error {
+    margin-top: 10px;
+    color: #ef4444;
+    font-size: 14px;
+  }
+  

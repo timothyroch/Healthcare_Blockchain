@@ -1,0 +1,22 @@
+{
+    "network": {
+      "name": "Rinkeby", 
+      "rpcUrl": "https://rinkeby.infura.io/v3/YOUR_INFURA_PROJECT_ID",
+      "chainId": 4
+    },
+    "contracts": {
+      "RecordStorage": {
+        "address": "0xYourDeployedRecordStorageAddress",
+        "abi": "../abis/RecordStorage.json"
+      },
+      "PatientAccess": {
+        "address": "0xYourDeployedPatientAccessAddress",
+        "abi": "../abis/PatientAccess.json"
+      }
+    },
+    "ipfs": {
+      "gateway": "https://ipfs.infura.io/ipfs/",
+      "apiUrl": "https://ipfs.infura.io:5001/api/v0"
+    }
+  }
+  

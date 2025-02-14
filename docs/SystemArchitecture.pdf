@@ -1,0 +1,91 @@
+The **SystemArchitecture.pdf** is a visual representation of the overall system design. It helps developers, stakeholders, and contributors understand the structure and flow of the application. Below is a suggested outline for the **SystemArchitecture.pdf**:
+
+---
+
+### **System Architecture Diagram: Key Components**
+
+#### **1. Users**
+   - **Patients**: Upload and manage medical records, grant/revoke access to doctors.
+   - **Doctors**: View records shared by patients.
+
+#### **2. Frontend**
+   - Built using **React** for an intuitive user interface.
+   - Interacts with the backend API and blockchain via **Web3.js**.
+   - Key responsibilities:
+     - User authentication and role-based access.
+     - File uploads to IPFS.
+     - Displaying records and managing access permissions.
+
+#### **3. Backend**
+   - Built with **Node.js** and **Express**.
+   - Manages authentication, API endpoints, and database interactions.
+   - Acts as a bridge between the frontend and blockchain.
+   - Key functionalities:
+     - User authentication using JWT.
+     - CRUD operations for medical records.
+     - Blockchain transaction handling.
+
+#### **4. Blockchain**
+   - **Smart Contracts**:
+     - **RecordStorage.sol**: Manages record metadata and access control.
+     - **PatientAccess.sol**: Handles permissions for viewing records.
+   - Deployed on Ethereum (e.g., Rinkeby testnet).
+   - Key responsibilities:
+     - Immutable storage of metadata.
+     - Enforcing access control policies.
+
+#### **5. IPFS (InterPlanetary File System)**
+   - Decentralized storage for medical record files.
+   - Stores large files securely while keeping metadata on the blockchain.
+   - Key benefits:
+     - Reduced storage costs on the blockchain.
+     - High availability and integrity of files.
+
+#### **6. Database (MongoDB)**
+   - Stores user information (email, hashed passwords, roles).
+   - Stores off-chain metadata for performance optimization.
+
+---
+
+### **Diagram: Example Layout**
+
+1. **Users**
+   - Patients and Doctors interact via the frontend.
+
+2. **Frontend**:
+   - React app connects to:
+     - **Backend API** (Node.js) for authentication and data management.
+     - **Blockchain (Ethereum)** for record-related operations.
+     - **IPFS** for file storage and retrieval.
+
+3. **Backend**:
+   - Handles user authentication, file upload processing, and API calls to the blockchain.
+   - Connects to:
+     - **MongoDB** for user and record data storage.
+     - **Smart Contracts** for blockchain interactions.
+
+4. **Blockchain**:
+   - Smart contracts enforce access control and store record metadata.
+
+5. **IPFS**:
+   - Decentralized file storage for medical records.
+
+---
+
+### **How to Create the PDF**
+
+To create the **SystemArchitecture.pdf**, follow these steps:
+
+1. **Use a Diagram Tool**:
+   - Use tools like **Draw.io**, **Lucidchart**, **Microsoft Visio**, or **Figma** to design the architecture.
+
+2. **Diagram Elements**:
+   - Represent components (Frontend, Backend, Blockchain, IPFS, Database) as labeled boxes.
+   - Use arrows to show the flow of data between components (e.g., User -> Frontend -> Backend -> Blockchain).
+
+3. **Export to PDF**:
+   - Once the diagram is complete, export it as a **PDF** file named `SystemArchitecture.pdf`.
+
+---
+
+Let me know if you'd like a detailed step-by-step diagram or further guidance! 😊
