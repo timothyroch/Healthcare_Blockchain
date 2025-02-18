@@ -1,7 +1,3 @@
-Here’s a comprehensive **`README.md`** for your **`encryption`** folder:
-
----
-
 # **Encryption Module**
 
 ## **Overview**
