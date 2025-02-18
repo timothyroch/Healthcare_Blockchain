@@ -1,6 +1,4 @@
-Here’s a comprehensive **`DeveloperGuide.md`** for your **`docs`** folder. This guide is aimed at developers working on the **Healthcare Blockchain Project** to help them understand the system architecture, setup, and development workflow.
 
----
 
 # **Developer Guide for Healthcare Blockchain Project**
 
