@@ -1,6 +1,4 @@
-Here’s a comprehensive **`README.md`** for your **`frontend`** folder. This document provides detailed information about the folder's purpose, setup instructions, and key components.
 
----
 
 # **Frontend for Healthcare Blockchain Project**
 
@@ -169,11 +167,5 @@ This project is licensed under the [MIT License](../LICENSE).
 
 ---
 
-## **Contact**
-
-- **Author**: [Your Name]  
-- **Email**: your_email@example.com  
-- **GitHub**: [Your GitHub Profile URL]  
-- **LinkedIn**: [Your LinkedIn Profile URL]  
 
 
