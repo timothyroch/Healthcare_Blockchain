@@ -1,7 +1,3 @@
-Here’s a detailed **`README.md`** for the **`smart_contracts`** folder:
-
----
-
 # **Smart Contracts for Healthcare Blockchain Project**
 
 ## **Overview**
@@ -144,10 +140,7 @@ This project is licensed under the [MIT License](../LICENSE).
 
 ## **Contact**
 
-- **Author**: [Your Name]  
-- **Email**: your_email@example.com  
-- **GitHub**: [Your GitHub Profile URL]  
+- **Author**: Timothy Roch 
+- **Email**: timothyroch@gmail.com  
+- **GitHub**: [[Your GitHub Profile URL] ](https://github.com/timothyroch) 
 
----
-
-Let me know if you'd like further refinements or additional details!
