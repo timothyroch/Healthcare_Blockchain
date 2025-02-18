@@ -1,6 +1,3 @@
-Here’s a comprehensive **`UserGuide.md`** for your **`docs`** folder. This guide is written for end users to help them navigate and use the **Healthcare Blockchain Project** application effectively.
-
----
 
 # **User Guide for Healthcare Blockchain Project**
 
@@ -153,13 +150,5 @@ As a doctor, the dashboard provides the following functionalities:
    - Verify the Ethereum address provided for granting or revoking access.
    - Ensure your MetaMask wallet is unlocked.
 
----
 
-## **Support**
-
-For additional help, contact the support team:
-
-- **Email**: support@healthcareblockchain.com
-- **Documentation**: [Official Docs](#)
-- **Community Forum**: [Forum Link](#)
 
