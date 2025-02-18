@@ -1,6 +1,4 @@
-Here’s a comprehensive **`README.md`** for your **`backend`** folder:
 
----
 
 # **Backend for Healthcare Blockchain Project**
 
