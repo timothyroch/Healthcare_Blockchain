@@ -1,7 +1,3 @@
-Here’s a comprehensive **`README.md`** for your **`off_chain_storage`** folder:
-
----
-
 # **Off-Chain Storage Module**
 
 ## **Overview**
