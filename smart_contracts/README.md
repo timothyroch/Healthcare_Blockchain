@@ -142,5 +142,5 @@ This project is licensed under the [MIT License](../LICENSE).
 
 - **Author**: Timothy Roch 
 - **Email**: timothyroch@gmail.com  
-- **GitHub**: [[Your GitHub Profile URL] ](https://github.com/timothyroch) 
+
 
